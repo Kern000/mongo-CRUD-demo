@@ -1,0 +1,213 @@
+[
+    {
+        "_id": 1,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-03-08",
+        "article_id": 1
+    },
+    {
+        "_id": 2,
+        "rating_company": "NewsWatch",
+        "viewership_rating": "Medium",
+        "date": "2024-03-07",
+        "article_id": 5
+    },
+    {
+        "_id": 3,
+        "rating_company": "Global News Rankings",
+        "viewership_rating": "High",
+        "date": "2024-03-06",
+        "article_id": 9
+    },
+    {
+        "_id": 4,
+        "rating_company": "MediaMetrics",
+        "viewership_rating": "Low",
+        "date": "2024-03-05",
+        "article_id": 13
+    },
+    {
+        "_id": 5,
+        "rating_company": "Viewership Analytics Group",
+        "viewership_rating": "High",
+        "date": "2024-03-04",
+        "article_id": 17
+    },
+    {
+        "_id": 6,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-03-03",
+        "article_id": 1
+    },
+    {
+        "_id": 7,
+        "rating_company": "NewsWatch",
+        "viewership_rating": "Medium",
+        "date": "2024-03-02",
+        "article_id": 5
+    },
+    {
+        "_id": 8,
+        "rating_company": "Global News Rankings",
+        "viewership_rating": "High",
+        "date": "2024-03-01",
+        "article_id": 9
+    },
+    {
+        "_id": 9,
+        "rating_company": "MediaMetrics",
+        "viewership_rating": "Low",
+        "date": "2024-02-29",
+        "article_id": 13
+    },
+    {
+        "_id": 10,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-02-28",
+        "article_id": 17
+    },
+    {
+        "_id": 11,
+        "rating_company": "Viewership Analytics Group",
+        "viewership_rating": "High",
+        "date": "2024-02-27",
+        "article_id": 1
+    },
+    {
+        "_id": 12,
+        "rating_company": "NewsWatch",
+        "viewership_rating": "Medium",
+        "date": "2024-02-26",
+        "article_id": 5
+    },
+    {
+        "_id": 13,
+        "rating_company": "Global News Rankings",
+        "viewership_rating": "High",
+        "date": "2024-02-25",
+        "article_id": 9
+    },
+    {
+        "_id": 14,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-02-24",
+        "article_id": 13
+    },
+    {
+        "_id": 15,
+        "rating_company": "MediaMetrics",
+        "viewership_rating": "Low",
+        "date": "2024-02-23",
+        "article_id": 17
+    },
+    {
+        "_id": 16,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-03-08",
+        "article_id": 1
+    },
+    {
+        "_id": 17,
+        "rating_company": "NewsWatch",
+        "viewership_rating": "Medium",
+        "date": "2024-03-07",
+        "article_id": 5
+    },
+    {
+        "_id": 18,
+        "rating_company": "Global News Rankings",
+        "viewership_rating": "High",
+        "date": "2024-03-06",
+        "article_id": 9
+    },
+    {
+        "_id": 19,
+        "rating_company": "MediaMetrics",
+        "viewership_rating": "Low",
+        "date": "2024-03-05",
+        "article_id": 13
+    },
+    {
+        "_id": 20,
+        "rating_company": "Viewership Analytics Group",
+        "viewership_rating": "High",
+        "date": "2024-03-04",
+        "article_id": 17
+    },
+    {
+        "_id": 21,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-03-03",
+        "article_id": 1
+    },
+    {
+        "_id": 22,
+        "rating_company": "NewsWatch",
+        "viewership_rating": "Medium",
+        "date": "2024-03-02",
+        "article_id": 5
+    },
+    {
+        "_id": 23,
+        "rating_company": "Global News Rankings",
+        "viewership_rating": "High",
+        "date": "2024-03-01",
+        "article_id": 9
+    },
+    {
+        "_id": 24,
+        "rating_company": "MediaMetrics",
+        "viewership_rating": "Low",
+        "date": "2024-02-29",
+        "article_id": 13
+    },
+    {
+        "_id": 25,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-02-28",
+        "article_id": 17
+    },
+    {
+        "_id": 26,
+        "rating_company": "Viewership Analytics Group",
+        "viewership_rating": "High",
+        "date": "2024-02-27",
+        "article_id": 1
+    },
+    {
+        "_id": 27,
+        "rating_company": "NewsWatch",
+        "viewership_rating": "Medium",
+        "date": "2024-02-26",
+        "article_id": 5
+    },
+    {
+        "_id": 28,
+        "rating_company": "Global News Rankings",
+        "viewership_rating": "High",
+        "date": "2024-02-25",
+        "article_id": 9
+    },
+    {
+        "_id": 29,
+        "rating_company": "NewsRatings Inc.",
+        "viewership_rating": "High",
+        "date": "2024-02-24",
+        "article_id": 13
+    },
+    {
+        "_id": 30,
+        "rating_company": "MediaMetrics",
+        "viewership_rating": "Low",
+        "date": "2024-02-23",
+        "article_id": 17
+    }
+]
+

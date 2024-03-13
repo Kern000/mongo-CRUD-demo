@@ -1,0 +1,43 @@
+[
+    {
+      "_id": "1",
+      "medium": "Print"
+    },
+    {
+      "_id": "2",
+      "medium": "Online"
+    },
+    {
+      "_id": "3",
+      "medium": "Television"
+    },
+    {
+      "_id": "4",
+      "medium": "Radio"
+    },
+    {
+      "_id": "5",
+      "medium": "Podcast"
+    },
+    {
+      "_id": "6",
+      "medium": "Social Media"
+    },
+    {
+      "_id": "7",
+      "medium": "Mobile App"
+    },
+    {
+      "_id": "8",
+      "medium": "Newsletter"
+    },
+    {
+      "_id": "9",
+      "medium": "Blog"
+    },
+    {
+      "_id": "10",
+      "medium": "Magazine"
+    }
+  ]
+  

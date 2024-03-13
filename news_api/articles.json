@@ -1,0 +1,304 @@
+[
+    {
+        "title": "Scientists Discover New Species of Jellyfish in the Pacific Ocean",
+        "source": "National Geographic",
+        "date": "2024-03-08",
+        "credibility_score": 0.89,
+        "news_type": {
+            "_id": "5",
+            "medium": "Podcast"
+        },
+        "tags": [2, 5],
+        "authors": [
+            "Kim Jong",
+            "Kim Un",
+            "Kim Chi",
+            "Kim Kong"
+        ]
+    },
+    {
+        "title": "Study Finds Link Between Coffee Consumption and Longevity",
+        "source": "ScienceDaily",
+        "date": "2024-03-07",
+        "credibility_score": 0.92,
+        "news_type": {
+            "_id": "4",
+            "medium": "Radio"
+        },
+        "tags": [1, 6],
+        "authors": [
+            "John Smith",
+            "Jane Doe"
+        ]
+    },
+    {
+        "title": "Breaking: Earthquake Strikes Indonesia, Tsunami Warning Issued",
+        "source": "CNN",
+        "date": "2024-03-06",
+        "credibility_score": 0.78,
+        "news_type": {
+            "_id": "7",
+            "medium": "Mobile App"
+        },
+        "tags": [3, 7],
+        "authors": [
+            "David Johnson",
+            "Emily Wang"
+        ]
+    },
+    {
+        "title": "Government Announces New Tax Reform Plan",
+        "source": "The New York Times",
+        "date": "2024-03-05",
+        "credibility_score": 0.85,
+        "news_type": {
+            "_id": "1",
+            "medium": "Print"
+        },
+        "tags": [4, 8],
+        "authors": [
+            "Michael Brown",
+            "Sophia Garcia"
+        ]
+    },
+    {
+        "title": "Celebrity Couple Files for Divorce Amid Cheating Allegations",
+        "source": "TMZ",
+        "date": "2024-03-04",
+        "credibility_score": 0.65,
+        "news_type": {
+            "_id": "1",
+            "medium": "Print"
+        },
+        "tags": [5, 9],
+        "authors": [
+            "Alex Thompson",
+            "Emma Lee"
+        ]
+    },
+    {
+        "title": "SpaceX Launches Satellite into Orbit",
+        "source": "Space.com",
+        "date": "2024-03-03",
+        "credibility_score": 0.91,
+        "news_type": {
+            "_id": "5",
+            "medium": "Podcast"
+        },
+        "tags": [6, 10],
+        "authors": [
+            "Ryan Smith",
+            "Megan Johnson"
+        ]
+    },
+    {
+        "title": "Health Officials Warn of New Flu Outbreak",
+        "source": "BBC News",
+        "date": "2024-03-02",
+        "credibility_score": 0.86,
+        "news_type": {
+            "_id": "8",
+            "medium": "Newsletter"
+        },
+        "tags": [7, 1],
+        "authors": [
+            "Taylor Brown",
+            "Olivia Davis"
+        ]
+    },
+    {
+        "title": "Investigation Reveals Corruption Scandal in Local Government",
+        "source": "The Guardian",
+        "date": "2024-03-01",
+        "credibility_score": 0.75,
+        "news_type": {
+            "_id": "10",
+            "medium": "Magazine"
+        },
+        "tags": [8, 2],
+        "authors": [
+            "Ethan Wilson",
+            "Ava Martinez"
+        ]
+    },
+    {
+        "title": "New Study Suggests Benefits of Meditation for Mental Health",
+        "source": "Psychology Today",
+        "date": "2024-02-29",
+        "credibility_score": 0.88,
+        "news_type": {
+            "_id": "9",
+            "medium": "Blog"
+        },
+        "tags": [9, 3],
+        "authors": [
+            "Noah Clark",
+            "Isabella Taylor"
+        ]
+    },
+    {
+        "title": "Tech Giant Apple Unveils Latest iPhone Model",
+        "source": "CNET",
+        "date": "2024-02-28",
+        "credibility_score": 0.83,
+        "news_type": {
+            "_id": "10",
+            "medium": "Magazine"
+        },
+        "tags": [10, 4],
+        "authors": [
+            "Liam Brown",
+            "Sofia Anderson"
+        ]
+    },
+    {
+        "title": "Local Man Rescues Dog from Freezing River",
+        "source": "Local News Network",
+        "date": "2024-02-27",
+        "credibility_score": 0.95,
+        "news_type": {
+            "_id": "4",
+            "medium": "Radio"
+        },
+        "tags": [1, 5],
+        "authors": [
+            "William White",
+            "Grace Johnson"
+        ]
+    },
+    {
+        "title": "New Study Finds Link Between Air Pollution and Respiratory Illness",
+        "source": "Reuters",
+        "date": "2024-02-26",
+        "credibility_score": 0.87,
+        "news_type": {
+            "_id": "2",
+            "medium": "Online"
+        },
+        "tags": [2, 6],
+        "authors": [
+            "Lucas Smith",
+            "Chloe Brown"
+        ]
+    },
+    {
+        "title": "Breaking: Government Declares State of Emergency in Response to Natural Disaster",
+        "source": "Associated Press",
+        "date": "2024-02-25",
+        "credibility_score": 0.79,
+        "news_type": {
+            "_id": "3",
+            "medium": "Television"
+        },
+        "tags": [3, 7],
+        "authors": [
+            "Elijah Wilson",
+            "Lily Johnson"
+        ]
+    },
+    {
+        "title": "Famous Author Releases New Book on Climate Change",
+        "source": "The Atlantic",
+        "date": "2024-02-24",
+        "credibility_score": 0.91,
+        "news_type": {
+            "_id": "3",
+            "medium": "Television"
+        },
+        "tags": [4, 8],
+        "authors": [
+            "Logan Martin",
+            "Aria Brown"
+        ]
+    },
+    {
+        "title": "Local Sports Team Wins Championship Title",
+        "source": "Sports Illustrated",
+        "date": "2024-02-23",
+        "credibility_score": 0.88,
+        "news_type": {
+            "_id": "1",
+            "medium": "Print"
+        },
+        "tags": [5, 9],
+        "authors": [
+            "Michael White",
+            "Sophia Thompson"
+        ]
+    },
+    {
+        "title": "Major Company Recalls Product Due to Safety Concerns",
+        "source": "Consumer Reports",
+        "date": "2024-02-22",
+        "credibility_score": 0.82,
+        "news_type": {
+            "_id": "3",
+            "medium": "Television"
+        },
+        "tags": [6, 10],
+        "authors": [
+            "Emma Garcia",
+            "Daniel Wilson"
+        ]
+    },
+    {
+        "title": "New Study Shows Benefits of Organic Farming Practices",
+        "source": "Farmers Weekly",
+        "date": "2024-02-21",
+        "credibility_score": 0.90,
+        "news_type": {
+            "_id": "5",
+            "medium": "Podcast"
+        },
+        "tags": [7, 1],
+        "authors": [
+            "Ava Clark",
+            "James Anderson"
+        ]
+    },
+    {
+        "title": "Politician Accused of Bribery Scandal",
+        "source": "Washington Post",
+        "date": "2024-02-20",
+        "credibility_score": 0.77,
+        "news_type": {
+            "_id": "6",
+            "medium": "Social Media"
+        },
+        "tags": [8, 2],
+        "authors": [
+            "Sophia White",
+            "Matthew Martinez"
+        ]
+    },
+    {
+        "title": "Breaking: Massive Wildfire Spreads Across Western States",
+        "source": "NBC News",
+        "date": "2024-02-19",
+        "credibility_score": 0.74,
+        "news_type": {
+            "_id": "6",
+            "medium": "Social Media"
+        },
+        "tags": [9, 3],
+        "authors": [
+            "Emily Garcia",
+            "Jack Thompson"
+        ]
+    },
+    {
+        "title": "Scientists Warn of Impending Asteroid Collision with Earth",
+        "source": "Scientific American",
+        "date": "2024-02-18",
+        "credibility_score": 0.93,
+        "news_type": {
+            "_id": "9",
+            "medium": "Blog"
+        },
+        "tags": [10, 4],
+        "authors": [
+            "Noah Brown",
+            "Grace Martinez"
+        ]
+    }
+]    

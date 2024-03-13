@@ -1,0 +1,43 @@
+[
+    {
+      "_id": 1,
+      "name": "Government Policies"
+    },
+    {
+      "_id": 2,
+      "name": "Global Conflicts"
+    },
+    {
+      "_id": 3,
+      "name": "Space Exploration"
+    },
+    {
+      "_id": 4,
+      "name": "Health"
+    },
+    {
+      "_id": 5,
+      "name": "Innovations"
+    },
+    {
+      "_id": 6,
+      "name": "Political Scandals"
+    },
+    {
+      "_id": 7,
+      "name": "Natural Disasters"
+    },
+    {
+      "_id": 8,
+      "name": "Global Economy"
+    },
+    {
+      "_id": 9,
+      "name": "Medical Breakthroughs"
+    },
+    {
+      "_id": 10,
+      "name": "Corporate Mergers and Acquisitions"
+    }
+]
+  
