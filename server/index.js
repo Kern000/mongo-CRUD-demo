@@ -143,6 +143,91 @@ app.delete("/article/delete/404cdd7bc109c432f8cc2443b45bcfe95980f5107215c645236e
     }
 })
 
+app.post("/users", async function(req,res){
+    
+    const result = await db.collection("users").insertOne(
+        {
+            "email": req.body.email,
+            "password": await bcrypt.hash(req.body.password, 12)
+        }
+    )
+    res.json({
+        "message": "Success",
+        "result": result
+    })
+})
+
+app.use((req,res,next)=>{
+    console.log(`${req.method} ${req.url}`);
+    next();
+})
+
+app.use((req,res,next)=>{
+    console.log(`Response status: ${res.statusCode}`);
+    next();
+})
+
+// JWT
+const JWT = require("jsonwebtoken");
+
+const generateAccessToken = (id, email) => {
+    return JWT.sign({
+                "user_id": id,
+                "email": email
+        },
+        process.env.TOKEN_SECRET,
+        {expiresIn:"1h"}
+    )    
+}
+
+let jwtStorage = {}
+
+app.post("/login", async(req,res)=>{
+    
+    const {email, password} = req.body;
+    if(!email || !password){
+        return res.status(400).json({"message":"Email and password are required"});
+    }
+    
+    const user = await db.collection("users").findOne({email:email});
+    if(!user){
+        return res.status(404).json({"message":"User not found"});
+    }
+    
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+    if(!isPasswordValid){
+        return res.status(401).json({"message":"Invalid password"});
+    }
+
+    const accessToken = generateAccessToken(user._id, user.email);
+    jwtStorage["access_token"] = accessToken;
+    console.log("storage here", jwtStorage);
+    res.json({accessToken: accessToken});
+})
+
+const verifyToken = (req, res, next) => {
+
+    console.log("verify token here", jwtStorage["access_token"])
+    req.headers["authorization"] = jwtStorage["access_token"]
+
+    const authHeader = req.headers["authorization"];
+    const token = authHeader;
+    if (!token) {
+        return res.sendStatus(403);
+    }
+    JWT.verify(token, process.env.TOKEN_SECRET, (err,user)=>{
+        if (err) {
+            return res.sendStatus(403);
+        }
+        req.user = user;
+        next();
+    })
+}
+
+app.get("/profile", verifyToken, (req,res)=>{
+    console.log("route hit in profile")
+    res.json({"message":"you have reached protected route"});
+})
 
 
 
