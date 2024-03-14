@@ -65,6 +65,55 @@ app.get("/article/:id", async(req,res)=>{
     }
 })
 
+app.get("/filter", async(req,res)=>{
+    try{
+
+        const criteria = {};
+
+        console.log("req.query", req.query)
+        console.log("req query date", req.query.date)
+
+        // support multiple query on date in same query string
+        let query = req.query.date
+        if (!Array.isArray(req.query.date)){
+            query = [req.query.date]
+        }
+
+        if(req.query.date){
+            criteria.date = {
+                "$in":query
+            }
+        }
+
+        // match based on case insensitive letters;
+        if (req.query.source) {
+            criteria.source = {
+                "$regex": req.query.source,
+                "$options":"i"
+            }
+        }
+
+
+        if (req.query.authors) {
+            console.log("inside here", req.query.authors)
+            criteria.authors = {
+                "$in":[req.query.authors]
+            }
+        }
+
+
+
+        const results = await db.collection("articles").find(criteria).toArray();
+
+        res.json({
+            "filtered": results
+        })
+
+    } catch (error){
+        res.status(500).json({"error": error.message});
+    }
+})
+
 app.post("/article", async(req,res)=>{
     try{
         const {title, source, date, credibility_score, news_type, tags, authors} = req.body;
