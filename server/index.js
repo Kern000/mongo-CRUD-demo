@@ -101,8 +101,6 @@ app.get("/filter", async(req,res)=>{
             }
         }
 
-
-
         const results = await db.collection("articles").find(criteria).toArray();
 
         res.json({
@@ -278,7 +276,21 @@ app.get("/profile", verifyToken, (req,res)=>{
     res.json({"message":"you have reached protected route"});
 })
 
-
+// can update one nested item, use elemMatch, and then $ in the checkups.$.name to indicate the matched Element
+`
+db.animals.updateOne({
+    '_id': ObjectId('65ea80c7a0700b9fc5d061c9'),
+    'checkups': {
+        '$elemMatch": {
+            '_id': ObjectId('65ea8b10a0700b9fc5d061d1')
+        }
+    }
+}, {
+    "$set": {
+        "checkups.$.name":"Dr. Su"
+    }
+})
+`
 
 const port = 3000;
 app.listen(port, ()=>{
