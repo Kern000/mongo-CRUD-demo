@@ -64,7 +64,7 @@ app.get("/article/:id", async(req,res)=>{
         res.status(500).json({"message":"Error fetching article", "error": error.message})
     }
 })
-
+ 
 app.get("/filter", async(req,res)=>{
     try{
 
