@@ -204,15 +204,7 @@ app.post("/users", async function(req,res){
     })
 })
 
-app.use((req,res,next)=>{
-    console.log(`${req.method} ${req.url}`);
-    next();
-})
 
-app.use((req,res,next)=>{
-    console.log(`Response status: ${res.statusCode}`);
-    next();
-})
 
 // JWT
 const JWT = require("jsonwebtoken");
@@ -271,26 +263,36 @@ const verifyToken = (req, res, next) => {
     })
 }
 
+app.use((req, res, next)=>{
+    console.log(`${req.method} ${req.url}`);
+    next();
+})
+
+app.use((req, res, next)=>{
+    console.log(`Response status: ${res.statusCode}`);
+    next();
+})
+
 app.get("/profile", verifyToken, (req,res)=>{
     console.log("route hit in profile")
     res.json({"message":"you have reached protected route"});
 })
 
 // can update one nested item, use elemMatch, and then $ in the checkups.$.name to indicate the matched Element
-`
-db.animals.updateOne({
-    '_id': ObjectId('65ea80c7a0700b9fc5d061c9'),
-    'checkups': {
-        '$elemMatch": {
-            '_id': ObjectId('65ea8b10a0700b9fc5d061d1')
-        }
-    }
-}, {
-    "$set": {
-        "checkups.$.name":"Dr. Su"
-    }
-})
-`
+// `
+// db.animals.updateOne({
+//     '_id': ObjectId('65ea80c7a0700b9fc5d061c9'),
+//     'checkups': {
+//         '$elemMatch": {
+//             '_id': ObjectId('65ea8b10a0700b9fc5d061d1')
+//         }
+//     }
+// }, {
+//     "$set": {
+//         "checkups.$.name":"Dr. Su"
+//     }
+// })
+// `
 
 const port = 3000;
 app.listen(port, ()=>{
